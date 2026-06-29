@@ -1,0 +1,23 @@
+{
+  "name": "algolia-spencer-williams",
+  "version": "1.0.0",
+  "description": "Algolia Customer Engineer Assignment",
+  "private": true,
+  "scripts": {
+    "index": "node src/index-products.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^5.55.1",
+    "dotenv": "^17.4.2",
+    "instantsearch.js": "^4.103.0"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

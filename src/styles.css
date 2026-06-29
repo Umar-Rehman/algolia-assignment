@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f7f9;
+  color: #222;
+}
+
+header {
+  background: #111827;
+  color: white;
+  padding: 24px 40px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 6px 0 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+  padding: 24px 40px;
+}
+
+aside {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  height: fit-content;
+}
+
+section {
+  min-width: 0;
+}
+
+#searchbox {
+  margin-bottom: 20px;
+}
+
+.product-card {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 16px;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #e5e7eb;
+}
+
+.product-image {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.product-info h2 {
+  font-size: 18px;
+  margin: 0 0 6px;
+}
+
+.brand {
+  font-weight: bold;
+  color: #4f46e5;
+  margin: 0 0 8px;
+}
+
+.description {
+  color: #555;
+  margin: 0 0 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 6px;
+}
+
+.meta {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+#pagination {
+  margin-top: 24px;
+}
+
+@media (max-width: 800px) {
+  main {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+
+  .product-card {
+    grid-template-columns: 1fr;
+  }
+}
